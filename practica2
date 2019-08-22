@@ -1,0 +1,7 @@
+mkdir
+touch
+ls
+echo
+echo "texto" >> archivo.txt
+cd ..
+cd carpeta
