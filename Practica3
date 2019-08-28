@@ -1,0 +1,54 @@
+1. Dado un precio calcular su descuento considerando que si el precio es mayor a 100 pesos el descuento será del 10%, de otro modo descontar solo un 2%
+
+
+Etapa 1: Precio, descuento1, descuento2, DescuentoTotal
+
+Etapa 2: 
+- Si precio >100= Precio* 0.10 = descuento1
+- Precio <100= Precio * 0.02= descuento2
+
+Etapa 3:
+
+Aplicar el descuento al precio original 
+Precio -(descuento1/descuento2)= Precio final
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+2. Un algoritmo que lea dos números y calcule su suma, su resta, su multiplicación y división de esos 2 números.  
+
+Etapa 1: num1, num2, suma, resta, multiplicación y división 
+
+Etapa 2: 
+
+- suma: num1 + num2
+- resta: num1-num2
+- division: num1/num2
+- multiplicación: num1*num2
+
+Etapa 3: 
+
+Resultado: suma
+Resultado: resta
+Resultado: división
+Resultado: multiplicación 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+3. Leer tres números que van a denotar una fecha (Día, mes y año)y verificar si es una fecha válida 
+
+Etapa 1: fecha, dia, mes, año
+
+Etapa 2:
+
+Dia: fecha abr,jun, sept, nov >1>=30
+Dia: fecha ene, mar, may, jul, ago, oct, dic >1>=31
+Dia: fecha feb >1>=28
+
+Mes:fecha >1<=12
+
+Año: fecha >2018 
+
+Etapa 3: 
+Fecha: Mes/Dia/Año
+
+
